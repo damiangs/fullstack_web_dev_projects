@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+body {
+  background-color: #dcd7c9;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.header {
+  height: 50vh;
+  background-image: url(./img/header-back.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #dcd7c9;
+}
+
+.header h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.header h2 {
+  font-size: 2rem;
+  font-style: italic;
+  padding-top: 2rem;
+}
+
+.hero {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #3f4e4f;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  height: 15rem;
+  margin: 2rem;
+  border: #2c3639 solid 3px;
+}
+
+.text {
+  text-align: left;
+}
+
+.image {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  border: #2c3639 solid 3px;
+  margin: 30px;
+}
+
+.skill-1,
+.skill-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.touch {
+  color: #3f4e4f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 25vh;
+}
+
+.touch .btn {
+  background-color: #2c3639;
+  color: #dcd7c9;
+}
+
+.footer {
+  color: red;
+}
