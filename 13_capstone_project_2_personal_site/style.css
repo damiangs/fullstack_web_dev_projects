@@ -64,6 +64,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
 }
 
 .touch {
@@ -82,4 +83,15 @@ body {
 
 .footer {
   color: red;
+}
+
+@media (max-width: 767px) {
+  .skill-1,
+  .skill-2 {
+    display: block;
+  }
+
+  .text {
+    text-align: center;
+  }
 }
