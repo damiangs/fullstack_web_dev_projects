@@ -58,33 +58,4 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
 
-<!-- Custom JavaScript for handling form submission -->
-<!--<script>
-  document.getElementById("blogForm").addEventListener("submit", function (e) {
-    e.preventDefault();
-
-    const title = document.getElementById("title").value;
-    const content = document.getElementById("content").value;
-    const date = new Date().toLocaleDateString();
-
-    const postHtml = `
-            <div class="card mb-4">
-                <div class="card-body">
-                    <h5 class="card-title">${title}</h5>
-                    <p class="card-text">${content}</p>
-                    <p class="card-text"><small class="text-muted">Posted on: ${date}</small></p>
-                </div>
-            </div>
-        `;
-
-    document
-      .getElementById("blogPosts")
-      .insertAdjacentHTML("afterbegin", postHtml);
-
-    // Clear the form
-    document.getElementById("title").value = "";
-    document.getElementById("content").value = "";
-  });
-</script> -->
-
 <%- include("partials/footer.ejs") %>
